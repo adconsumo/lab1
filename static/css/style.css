@@ -52,3 +52,7 @@ body{
     height: 100px;
     margin-bottom: 0px;
 }
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
