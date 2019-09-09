@@ -72,3 +72,16 @@ body{
     cursor: pointer;
     position: relative;
 }
+.head{
+    color: rgb(251, 177, 12);
+    font-family: 'Bookman Old Style';
+}
+.head2{
+    color: rgb(251, 177, 12);
+    font-family: 'Bookman Old Style';
+}
+.txt{
+    color: rgb(93, 207, 202);
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+}
