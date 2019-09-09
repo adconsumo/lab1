@@ -40,19 +40,35 @@ body{
 	margin-left: 20px;
 	
 }
-.coldiv1{
-    background: rgb(251, 177, 12);
-    width: 1000px;
-    height: 20px;
-    margin-bottom: 0;
+//.coldiv1{
+//    background: rgb(251, 177, 12);
+//    width: 1000px;
+//   height: 20px;
+//    margin-bottom: 1px;
 }
-.coldiv2{
-    background: rgb(93, 2017, 202);
-    width: 1000px;
-    height: 100px;
-    margin-bottom: 0px;
+//.coldiv2{
+//    background: rgb(93, 2017, 202);
+//    width: 1000px;
+//    height: 100px;
+//   margin-bottom: 1px;
 }
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
+.btnpage2 {
+    position: relative;
+    left: 30px;
+    width: 180px;
+    height: 90px;
+    margin-left: 0;
+    padding: .5px 4px;
+}
+.btnpage {
+    background: rgba(0,0,0,.3);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    margin-left: 0;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    position: relative;
 }
