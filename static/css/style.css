@@ -13,8 +13,9 @@ body{
 	position: relative;
 }
 .btn{
-	background: rgba(0,0,0,.3);
-	color: rgb(255, 255, 255);
+	background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
 	width: 250px;
 	height: 100px;
 	margin-left: 30px;
@@ -25,13 +26,16 @@ body{
 	position: relative;
 	
 }
-.btn2{
-	position: relative;
-	left: 30px;
-	width: 325px;
-	height: 150px;
-	margin: 4px 2px;
-	padding: .5px 4px;
+.btn2 {
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
+    position: relative;
+    left: 30px;
+    width: 325px;
+    height: 150px;
+    margin: 4px 2px;
+    padding: .5px 4px;
 }
 .divider{
 	background: rgb(58, 58, 58);
@@ -53,6 +57,9 @@ body{
 //   margin-bottom: 1px;
 }
 .btnpage2 {
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
     position: relative;
     left: 30px;
     width: 180px;
@@ -61,8 +68,9 @@ body{
     padding: .5px 4px;
 }
 .btnpage {
-    background: rgba(0,0,0,.3);
-    color: rgb(255, 255, 255);
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
     width: 150px;
     height: 50px;
     margin-left: 0;
@@ -75,6 +83,7 @@ body{
 .head{
     color: rgb(251, 177, 12);
     font-family: 'Bookman Old Style';
+    font-size: xx-large;
 }
 .head2{
     color: rgb(251, 177, 12);
@@ -84,4 +93,52 @@ body{
     color: rgb(93, 207, 202);
     font-family: 'Bookman Old Style';
     font-weight: 100;
+}
+.headerpic {
+    width: 200px;
+    height: 75px;
+}
+.txt2 {
+    color: rgb(251, 177, 12);
+    font-family: 'Bookman Old Style';
+    font-weight: 100;
+}
+.headerpic2 {
+    width: 100px;
+    height: 40px;
+}
+.grenadepic{
+    width: 250px;
+    height: 100px;
+}
+.btngrel {
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
+    cursor: pointer;
+    margin-left: 1px;
+}
+.btngrer {
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
+    cursor: pointer;
+    margin-left: 1px;
+    margin-right: 200px;
+}
+.btngremid {
+    background: rgb(58, 58, 58);
+    border: 1px;
+    border-color: rgb(58, 58, 58);
+    cursor: pointer;
+    margin-left: 350px;
+
+}
+.grenpic {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    position: relative;
 }
