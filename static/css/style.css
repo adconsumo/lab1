@@ -17,7 +17,7 @@ body{
 	color: rgb(255, 255, 255);
 	width: 250px;
 	height: 100px;
-	margin-left: 20px;
+	margin-left: 30px;
 	padding: 10px;
 	display: grid;
 	place-items: center;
@@ -25,10 +25,30 @@ body{
 	position: relative;
 	
 }
+.btn2{
+	position: relative;
+	left: 30px;
+	width: 325px;
+	height: 150px;
+	margin: 4px 2px;
+	padding: .5px 4px;
+}
 .divider{
 	background: rgb(58, 58, 58);
 	width: 200px;
 	height: 10px;
 	margin-left: 20px;
 	
+}
+.coldiv1{
+    background: rgb(251, 177, 12);
+    width: 3000px;
+    height: 20px;
+    margin-bottom: 0;
+}
+.coldiv2{
+    background: rgb(93, 2017, 202);
+    width: 3000px;
+    height: 100px;
+    margin-bottom: 0px;
 }
